@@ -23,7 +23,7 @@ local Name = game.Players.LocalPlayer.Name
 
 -- Init
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("DSM Pro - v1.0.0", "Ocean")
+local Window = Library.CreateLib("DSM Pro - v1.0.1", "Ocean")
 -- Tabs
 local mainTB = Window:NewTab("Main")
 local funTB = Window:NewTab("Fun")
