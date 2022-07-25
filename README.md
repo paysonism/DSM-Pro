@@ -26,7 +26,7 @@ More coming soon!
 
 Using DSM Pro is easy! Just copy the loadstring below and execute!
 
-Script: `loadstring(game:HttpGet("https://raw.githubusercontent.com/P-DennyGamingYT/DSM-Pro/main/Script.lua"))()`
+Script: ```loadstring(game:HttpGet("https://raw.githubusercontent.com/P-DennyGamingYT/DSM-Pro/main/Script.lua"))()```
 
 INF Credits/Xp: To use, I recommend just clicking the EXP button 6 times and then rebirthing until you hit max rank, after that you can give yourself as much money as you want!
 
