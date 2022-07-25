@@ -18,9 +18,9 @@ More coming soon!
 
 # Images
 
-![DSM Pro][unknown.png]
-![DSM Pro][unknown2.png]
-![DSM Pro][unknown3.png]
+![DSM Pro][https://raw.githubusercontent.com/P-DennyGamingYT/DSM-Pro/main/unknown.png]
+![DSM Pro][https://raw.githubusercontent.com/P-DennyGamingYT/DSM-Pro/main/unknown2.png]
+![DSM Pro][https://raw.githubusercontent.com/P-DennyGamingYT/DSM-Pro/main/unknown3.png]
 
 # How to use
 
