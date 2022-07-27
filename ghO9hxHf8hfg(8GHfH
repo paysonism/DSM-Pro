@@ -18,10 +18,12 @@ _G.Input = "string"
 
 local login = Library.CreateLib("DSM Pro - Login", "Ocean")
 local logTB = Window:NewTab("Login")
+local adminTB = Window:NewTab("Admin")
 local buyTB = Window:NewTab("Purchase")
 
 local key = logTB:NewSection("Key")
 local buy = buyTB:NewSection("Buy")
+local adm = adminTB:NewSection("Login")
 
 buy:NewLabel("Join the discord and DM @[YT]P-Denny#7313 or big boi dev with a purchase request.")
 
@@ -29,7 +31,7 @@ key:NewTextBox("Key", "Insert your key to login.", function(txt)
 	_G.Input = txt
 end)
 
-Section:NewButton("Login", "Check's your key.", function(pass)
+key:NewButton("Login", "Check's your key.", function(pass)
     if _G.Input == _G.Key then
         
         game.StarterGui:SetCore("ChatMakeSystemMessage", {
