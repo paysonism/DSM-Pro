@@ -31,7 +31,7 @@ key:NewTextBox("Key", "Insert your key to login.", function(txt)
 	_G.Input = txt
 end)
 
-key:NewButton("Login", "Check's your key.", function(pass)
+key:NewButton("Login", "Checks your key.", function(pass)
     if _G.Input == _G.Key then
         
         game.StarterGui:SetCore("ChatMakeSystemMessage", {
