@@ -375,9 +375,8 @@ do
                     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
                 end    
             })
-
-            local character = movement:AddSection({ Name = "Character" });
-            do
+        local character = movement:AddSection({ Name = "Character" });
+        do
                 character:AddSlider({
                     Name = "JumpPower",
                     Min = 0,
@@ -389,6 +388,20 @@ do
                     Save = true,
                     Callback = function(height)
                         game.Players.LocalPlayer.Character.Humanoid.JumpPower = height
+                    end    
+                })
+
+                character:AddSlider({
+                    Name = "FOV",
+                    Min = 0,
+                    Max = 120,
+                    Default = 70,
+                    Color = Color3.fromRGB(0, 200, 0),
+                    Increment = 1,
+                    ValueName = "fov",
+                    Save = true,
+                    Callback = function(fov)
+                        game.Workspace.CurrentCamera.FieldOfView = fov
                     end    
                 })
 
