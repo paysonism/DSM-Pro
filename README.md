@@ -30,7 +30,8 @@ More coming soon!
 
 Using DSM Pro is easy! Just copy the loadstring below and execute!
 
-Script: ```lua
+Script:
+```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/P-DennyGamingYT/DSM-Pro/main/DSM.lua"))()
 ```
 
