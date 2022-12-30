@@ -41,4 +41,4 @@ INF Credits/XP: To use, I recommend just clicking the EXP button 6 times and the
 
 Made By [Payson Holmes](https://github.com/P-DennyGamingYT/) - [[YT]P-Denny#7313](https://discord.gg/users/820680923887566868)
 
-Copyright &copy; 2022 - [PDennSploit Softworks](https://dsc.gg/PDennSploit)
+Copyright &copy; 2023 - [PDennSploit Softworks](https://dsc.gg/PDennSploit)
